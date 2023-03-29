@@ -1,0 +1,49 @@
+header {
+	background-color: #333;
+	color: #fff;
+}
+
+nav {
+	padding: 20px;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+nav ul{
+	display: flex;
+	justify-content: space-between;
+}
+
+nav ul :nth-child(3){
+	background-color: blue;	
+}
+
+nav a:hover {
+	color: #ccc;
+}
+
+.after-add{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+
+	:hover{
+	color: #ccc;
+	}
+}
+
+nav :nth-child(3) span{
+	color: white;
+	font-size: 15px;
+	position: relative;
+	right: 5px;
+	top: 5px;
+
+}
